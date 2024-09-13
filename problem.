@@ -1,0 +1,18 @@
+print ('1 - internet fraca')
+print ('2 - internet caindo com frequencia')
+print ('3 - problema com pagamento')
+print ('4 - adaptador quebrado')
+print ('5 - nenhum dos problemas listados acima (chamar um atendente físico)')
+prb = int(input("qual o seu problema? "))
+if prb == 1:
+    print("envie um print do nosso site de velocidade de internet, e continuaremos o atendimento. (no email)")
+elif prb == 2:
+    print("cheque os cabos, e veja suas condições, caso esteja normal, envie um email para nos novamente.")
+elif prb == 3:
+    print("cheque os métodos de pagamento, caso esteja ok, nos envie um email novamente.")
+elif prb == 4:
+    rua = str(input("enviaremos um outro adaptador a rua: "))
+elif prb == 5:
+    num = int(input("digite seu número de telefone e ligaremos para ele em aproximadamente 5 minutos."))
+else:
+    print("digite um número até 5, de acordo com seu problema.")
