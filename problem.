@@ -1,3 +1,4 @@
+print ('qual o problema relacionado a sua internet?')
 print ('1 - internet fraca')
 print ('2 - internet caindo com frequencia')
 print ('3 - problema com pagamento')
